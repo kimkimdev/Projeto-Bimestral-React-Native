@@ -7,6 +7,7 @@ const CadastroPage = () => {
   const [senha, setSenha] = useState('');
 
   const handleCadastro = () => {
+    // Aqui você pode adicionar a lógica para enviar os dados para o servidor
     console.log('Nome:', nome);
     console.log('Email:', email);
     console.log('Senha:', senha);

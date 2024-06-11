@@ -29,7 +29,7 @@ const Login = () => {
         secureTextEntry={true}
       />
       <TouchableOpacity style={styles.button} onPress={handleLogin}>
-        <Text style={styles.buttonText}>Login</Text>
+        <Text style={styles.buttonText} href >Login</Text>
       </TouchableOpacity>
     </View>
   );
